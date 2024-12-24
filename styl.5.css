@@ -1,0 +1,21 @@
+.hover{
+    display: none;
+}
+nav{
+    justify-content: space-around;
+}
+@media screen and (max-width:767px) {
+       
+    .main{
+       width: 100%;
+       height: 85vh;
+     
+    }
+
+     nav{
+     display: none !important;
+     }
+     .hover{
+        display: block;
+         }
+ }
